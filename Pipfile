@@ -1,13 +1,26 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
-pre-commit = "*"
+celery = "*"
+django = "~=3.1.7"
+djangorestframework = "~=3.12"
+djangorestframework-api-key = "==2.0.0"
+djangorestframework-simplejwt = "==4.6.0"
+django-ipware = "*"
+django-environ = "*"
+drf_yasg = "*"
+django-cors-headers = "*"
 flake8 = "*"
+gunicorn = "==20.1.0"  # https://github.com/benoitc/gunicorn
+pre-commit = "*"
+psycopg2 = "==2.9.2"  # https://github.com/psycopg/psycopg2
+pycryptodome = "*"
 
 [dev-packages]
+django_debug_toolbar= ">=2.2"
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"
