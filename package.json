@@ -2,9 +2,6 @@
   "name": "repo-template",
   "version": "0.3.0",
   "description": "repo-template",
-  "scripts": {
-    "overrideChangelog": "gren changelog --override"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/woodonggyu/repo-template.git"
